@@ -1,18 +1,3 @@
-// enter for search
-document.getElementById('search').addEventListener('keypress', function(event){
-  if(event.key == 'Enter'){
-    document.getElementById('search-btn').click()
-  }
-})
-
-// enter for slide on
-document.getElementById('duration').addEventListener('keypress', function(event){
-if(event.key == 'Enter'){
-  document.getElementById('create-slider').click()
-}
-})
-
-
 const imagesArea = document.querySelector('.images');
 const gallery = document.querySelector('.gallery');
 const galleryHeader = document.querySelector('.gallery-header');
@@ -164,3 +149,17 @@ else{
 }
 
 }
+
+// enter for search
+document.getElementById('search').addEventListener('keypress', function(event){
+  if(event.key == 'Enter'){
+    document.getElementById('search-btn').click()
+  }
+})
+
+// enter for slide on
+document.getElementById('duration').addEventListener('keypress', function(event){
+if(event.key == 'Enter'){
+  document.getElementById('create-slider').click()
+}
+})
